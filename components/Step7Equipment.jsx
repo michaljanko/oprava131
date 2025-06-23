@@ -1,1 +1,0 @@
-export default function Step7({ onBack }) { return (<div><label>Výbava:<input type='checkbox' /> Klimatizácia</label><button onClick={onBack}>Späť</button><button>Odporučiť</button></div>); }

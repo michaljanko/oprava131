@@ -1,1 +1,0 @@
-export default function Step2({ onNext, onBack }) { return (<div><label>Karoséria:<select><option>hatchback</option><option>SUV</option></select><button onClick={onBack}>Späť</button><button onClick={onNext}>Ďalej</button></div>); }

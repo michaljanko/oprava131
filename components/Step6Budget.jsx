@@ -1,1 +1,0 @@
-export default function Step6({ onNext, onBack }) { return (<div><label>Rozpočet:<input type='range' min='0' max='100000' /><button onClick={onBack}>Späť</button><button onClick={onNext}>Ďalej</button></div>); }
