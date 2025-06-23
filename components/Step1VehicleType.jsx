@@ -1,0 +1,1 @@
+export default function Step1({ onNext }) { return (<div><label>Typ auta:<select><option>mestské</option><option>kompaktné</option></select><button onClick={onNext}>Ďalej</button></div>); }

@@ -1,0 +1,1 @@
+export default function Step3({ onNext, onBack }) { return (<div><label>Pohon:<select><option>benzín</option><option>elektro</option></select><button onClick={onBack}>Späť</button><button onClick={onNext}>Ďalej</button></div>); }

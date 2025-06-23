@@ -1,0 +1,1 @@
+export default function Step4({ onNext, onBack }) { return (<div><label>Prevodovka:<select><option>manuál</option><option>automat</option></select><button onClick={onBack}>Späť</button><button onClick={onNext}>Ďalej</button></div>); }
