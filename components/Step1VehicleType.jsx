@@ -1,0 +1,1 @@
+// Placeholder for Step 1 component
