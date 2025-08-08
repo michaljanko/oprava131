@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carculator – Výber auta</title>
+  <style>
+    /* Base styling */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #F5F7FA;
+      color: #176B87;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(135deg, #176B87 0%, #1493B7 100%);
+      color: #FFF;
+      text-align: center;
+      padding: 36px 0 40px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.4rem;
+      letter-spacing: -1px;
+      font-weight: 800;
+    }
+    header p {
+      margin-top: 8px;
+      font-size: 1.05rem;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    /* Progress bar */
+    .progress {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      gap: 6px;
+    }
+    .progress-bar {
+      flex: 1;
+      height: 6px;
+      background-color: #E1E8F0;
+      border-radius: 4px;
+      overflow: hidden;
+      position: relative;
+    }
+    .progress-bar.active {
+      background-color: #FFA500;
+      box-shadow: 0 0 4px rgba(255,165,0,0.6);
+    }
+    /* Step cards */
+    .step {
+      display: none;
+      background: #FFF;
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+      margin-bottom: 28px;
+    }
+    .step.active {
+      display: block;
+      animation: fadeIn 0.3s ease;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #176B87;
+    }
+    /* Options tiles */
+    .options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin: 24px 0;
+    }
+    .option {
+      flex: 1 1 calc(50% - 16px);
+      min-width: 160px;
+      border: 2px solid #FFA500;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.15s;
+      background: #FFF7E5;
+      color: #176B87;
+      font-weight: 600;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    .option:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    }
+    .option.selected {
+      background: #FFA500;
+      color: #FFF;
+      border-color: #FFA500;
+      box-shadow: 0 4px 10px rgba(255,165,0,0.4);
+    }
+    /* Navigation buttons */
+    .nav-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 28px;
+    }
+    button {
+      background: #FFA500;
+      color: #FFF;
+      border: none;
+      border-radius: 24px;
+      padding: 14px 32px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+      box-shadow: 0 4px 10px rgba(255,165,0,0.3);
+    }
+    button:hover {
+      background: #e89d00;
+    }
+    button:active {
+      transform: scale(0.98);
+    }
+    /* Features group */
+    .features-group {
+      margin-bottom: 24px;
+    }
+    .features-group h3 {
+      margin-bottom: 8px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #176B87;
+    }
+    .features-group label {
+      display: block;
+      margin: 6px 0;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    input[type="range"] {
+      width: 100%;
+    }
+    .slider-value {
+      margin-top: 10px;
+      font-weight: 700;
+    }
+    /* Results table */
+    #results-container {
+      margin-top: 30px;
+      background: #FFF;
+      border-radius: 16px;
+      padding: 28px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 1rem;
+    }
+    th, td {
+      padding: 12px 10px;
+      border-bottom: 1px solid #F0F0F0;
+    }
+    th {
+      background: #176B87;
+      color: #FFF;
+      text-align: left;
+      font-weight: 700;
+    }
+    td.highlight {
+      color: #176B87;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Carculator</h1>
+    <p>Nájdi ideálne auto podľa svojich predstáv</p>
+  </header>
+  <div class="container">
+    <!-- Progress bar -->
+    <div id="progress" class="progress">
+      <div class="progress-bar"></div>
+      <div class="progress-bar"></div>
+      <div class="progress-bar"></div>
+      <div class="progress-bar"></div>
+      <div class="progress-bar"></div>
+      <div class="progress-bar"></div>
+      <div class="progress-bar"></div>
+    </div>
+    <!-- Step 1: Segment -->
+    <div id="step1" class="step active">
+      <h2>1. Aké auto si chceš kúpiť?</h2>
+      <div class="options" data-step="segment">
+        <div class="option" data-value="mestské">Mestské</div>
+        <div class="option" data-value="kompaktné">Kompaktné</div>
+        <div class="option" data-value="stredné">Stredné</div>
+        <div class="option" data-value="veľké">Veľké</div>
+      </div>
+      <div class="nav-buttons">
+        <div></div>
+        <button id="next1">Ďalej</button>
+      </div>
+    </div>
+    <!-- Step 2: Body type -->
+    <div id="step2" class="step">
+      <h2>2. Akú karosériu preferuješ?</h2>
+      <div class="options" data-step="body">
+        <div class="option" data-value="hatchback">Hatchback</div>
+        <div class="option" data-value="SUV">SUV</div>
+        <div class="option" data-value="limuzína/sedan">Limuzína/Sedan</div>
+        <div class="option" data-value="combi">Combi</div>
+      </div>
+      <div class="nav-buttons">
+        <button id="back2">Späť</button>
+        <button id="next2">Ďalej</button>
+      </div>
+    </div>
+    <!-- Step 3: Fuel type -->
+    <div id="step3" class="step">
+      <h2>3. Preferovaný pohon</h2>
+      <div class="options" data-step="fuel">
+        <div class="option" data-value="benzín/hybrid">Benzín/Hybrid</div>
+        <div class="option" data-value="elektrina">Elektrina</div>
+        <div class="option" data-value="nafta">Nafta</div>
+        <div class="option" data-value="plug-in hybrid">Plug‑in hybrid</div>
+      </div>
+      <div class="nav-buttons">
+        <button id="back3">Späť</button>
+        <button id="next3">Ďalej</button>
+      </div>
+    </div>
+    <!-- Step 4: Gearbox -->
+    <div id="step4" class="step">
+      <h2>4. Akú prevodovku chceš?</h2>
+      <div class="options" data-step="gearbox">
+        <div class="option" data-value="automat">Automat</div>
+        <div class="option" data-value="manuál">Manuál</div>
+      </div>
+      <div class="nav-buttons">
+        <button id="back4">Späť</button>
+        <button id="next4">Ďalej</button>
+      </div>
+    </div>
+    <!-- Step 5: 4x4 requirement -->
+    <div id="step5" class="step">
+      <h2>5. Potrebuješ pohon 4×4?</h2>
+      <div class="options" data-step="four_wheel">
+        <div class="option" data-value="true">Áno</div>
+        <div class="option" data-value="false">Nie</div>
+      </div>
+      <div class="nav-buttons">
+        <button id="back5">Späť</button>
+        <button id="next5">Ďalej</button>
+      </div>
+    </div>
+    <!-- Step 6: Budget -->
+    <div id="step6" class="step">
+      <h2>6. Aký je tvoj rozpočet?</h2>
+      <input type="range" id="budget" min="0" max="100000" step="500" value="30000">
+      <div class="slider-value">
+        Rozpočet: <span id="budget-value">30 000</span> €
+      </div>
+      <div class="nav-buttons">
+        <button id="back6">Späť</button>
+        <button id="next6">Ďalej</button>
+      </div>
+    </div>
+    <!-- Step 7: Features -->
+    <div id="step7" class="step">
+      <h2>7. Požadované prvky výbavy</h2>
+      <div class="features-group">
+        <h3>Parkovacie systémy</h3>
+        <label><input type="checkbox" id="sensors"> Zadné a predné parkovacie senzory</label>
+        <label><input type="checkbox" id="camera"> Parkovacia kamera</label>
+      </div>
+      <div class="features-group">
+        <h3>Infotainment</h3>
+        <label><input type="checkbox" id="navigation"> Navigácia</label>
+      </div>
+      <div class="features-group">
+        <h3>Asistenčné systémy</h3>
+        <label><input type="checkbox" id="acc"> Adaptívny tempomat</label>
+        <label><input type="checkbox" id="blind"> Sledovanie mŕtveho uhla</label>
+      </div>
+      <div class="nav-buttons">
+        <button id="back7">Späť</button>
+        <button id="finish">Vyhľadať</button>
+      </div>
+    </div>
+    <!-- Results container -->
+    <div id="results-container" style="display:none;"></div>
+  </div>
+  <script>
+    // Object to store user selections
+    const selections = {
+      segment: null,
+      body: null,
+      fuel: null,
+      gearbox: null,
+      four_wheel: null,
+      budget: null,
+      sensors: false,
+      camera: false,
+      navigation: false,
+      acc: false,
+      blind: false
+    };
+    // Step navigation logic
+    let currentStep = 1;
+    function showStep(step) {
+      document.querySelectorAll('.step').forEach(el => {
+        el.classList.remove('active');
+      });
+      document.getElementById(`step${step}`).classList.add('active');
+      currentStep = step;
+      updateProgress(step);
+    }
+    // Update progress bar
+    function updateProgress(step) {
+      const bars = document.querySelectorAll('#progress .progress-bar');
+      bars.forEach((bar, index) => {
+        if (index < step) {
+          bar.classList.add('active');
+        } else {
+          bar.classList.remove('active');
+        }
+      });
+    }
+    // Option click handler
+    document.querySelectorAll('.options').forEach(group => {
+      group.addEventListener('click', (e) => {
+        const option = e.target.closest('.option');
+        if (!option) return;
+        // Remove selected state from siblings
+        const siblings = group.querySelectorAll('.option');
+        siblings.forEach(el => el.classList.remove('selected'));
+        option.classList.add('selected');
+        const stepKey = group.getAttribute('data-step');
+        const value = option.getAttribute('data-value');
+        if (stepKey === 'four_wheel') {
+          selections[stepKey] = value === 'true';
+        } else {
+          selections[stepKey] = value;
+        }
+      });
+    });
+    // Budget slider value update
+    const budgetSlider = document.getElementById('budget');
+    const budgetValue = document.getElementById('budget-value');
+    budgetSlider.addEventListener('input', () => {
+      const val = parseInt(budgetSlider.value, 10);
+      budgetValue.textContent = val.toLocaleString('sk-SK');
+      selections.budget = val;
+    });
+    // Initialize budget selection
+    selections.budget = parseInt(budgetSlider.value, 10);
+    budgetValue.textContent = selections.budget.toLocaleString('sk-SK');
+    // Navigation buttons
+    document.getElementById('next1').addEventListener('click', () => {
+      showStep(2);
+    });
+    document.getElementById('next2').addEventListener('click', () => {
+      showStep(3);
+    });
+    document.getElementById('next3').addEventListener('click', () => {
+      showStep(4);
+    });
+    document.getElementById('next4').addEventListener('click', () => {
+      showStep(5);
+    });
+    document.getElementById('next5').addEventListener('click', () => {
+      showStep(6);
+    });
+    document.getElementById('next6').addEventListener('click', () => {
+      showStep(7);
+    });
+    // Back buttons
+    document.getElementById('back2').addEventListener('click', () => {
+      showStep(1);
+    });
+    document.getElementById('back3').addEventListener('click', () => {
+      showStep(2);
+    });
+    document.getElementById('back4').addEventListener('click', () => {
+      showStep(3);
+    });
+    document.getElementById('back5').addEventListener('click', () => {
+      showStep(4);
+    });
+    document.getElementById('back6').addEventListener('click', () => {
+      showStep(5);
+    });
+    document.getElementById('back7').addEventListener('click', () => {
+      showStep(6);
+    });
+    // Finish button
+    document.getElementById('finish').addEventListener('click', async () => {
+      // Set feature selections from checkboxes
+      selections.sensors = document.getElementById('sensors').checked;
+      selections.camera = document.getElementById('camera').checked;
+      selections.navigation = document.getElementById('navigation').checked;
+      selections.acc = document.getElementById('acc').checked;
+      selections.blind = document.getElementById('blind').checked;
+      // Build the absolute API URL to ensure correct routing on Vercel and other hosts
+      const apiUrl = `${window.location.origin}/api/main/recommend`;
+      try {
+        const response = await fetch(apiUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(selections)
+        });
+        const data = await response.json();
+        const container = document.getElementById('results-container');
+        if (!data || !data.results || data.results.length === 0) {
+          container.style.display = 'block';
+          container.innerHTML = '<p>Podľa zvolených kritérií neboli nájdené žiadne vozidlá.</p>';
+          return;
+        }
+        let html = '<h2>Najlepšie možnosti</h2>';
+        html += '<table><thead><tr><th>#</th><th>Model</th><th>Verzia</th><th>Segment</th><th>Cena</th></tr></thead><tbody>';
+        data.results.forEach((car, idx) => {
+          const priceFormatted = new Intl.NumberFormat('sk-SK', { style: 'currency', currency: 'EUR', minimumFractionDigits: 0 }).format(car.price);
+          html += `<tr><td>${idx+1}</td><td>${car.model}</td><td>${car.version}</td><td>${car.segment ?? ''}</td><td class="highlight">${priceFormatted}</td></tr>`;
+        });
+        html += '</tbody></table>';
+        container.innerHTML = html;
+        container.style.display = 'block';
+        container.scrollIntoView({ behavior: 'smooth' });
+      } catch (err) {
+        console.error(err);
+        const container = document.getElementById('results-container');
+        container.style.display = 'block';
+        container.innerHTML = '<p>Nastala chyba pri načítaní výsledkov. Skontroluj, prosím, spojenie a skús to znova.</p>';
+      }
+    });
+  </script>
+</body>
+</html>
