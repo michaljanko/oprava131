@@ -1,0 +1,6 @@
+{
+  // Disable framework detection (e.g. Next.js)
+  "framework": null,
+  "cleanUrls": true,
+  "trailingSlash": false
+}
