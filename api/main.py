@@ -24,6 +24,18 @@ import json
 from pathlib import Path
 from typing import Optional
 
+# When running on serverless platforms like Vercel we need an adapter
+# to expose our ASGI app to the underlying AWS Lambda environment.  The
+# Mangum class wraps a FastAPI application and provides a callable
+# ``handler`` that Vercel will use as the entrypoint. Without this
+# wrapper Vercel will return a 404 or HTML response instead of
+# executing the API. Importing here avoids adding a dependency when
+# running locally if Mangum is not installed.
+try:
+    from mangum import Mangum  # type: ignore
+except ImportError:
+    Mangum = None  # type: ignore
+
 
 class FeatureRequest(BaseModel):
     """Schema describing the incoming recommendation request.
@@ -150,3 +162,11 @@ def recommend(request: FeatureRequest) -> dict[str, list[dict]]:
     # Sort ascending by final price
     results.sort(key=lambda x: x["price"])
     return {"results": results}
+
+# If Mangum is available (i.e. in the Vercel environment), wrap the FastAPI
+# application in a handler. This handler is what Vercel will invoke when
+# executing the serverless function.  Locally `handler` is unused but
+# defined so that importing this module always succeeds.  Vercel looks
+# specifically for a top‑level variable named `handler` to run the app.
+if Mangum is not None:
+    handler = Mangum(app)
