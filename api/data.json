@@ -2982,6 +2982,1545 @@
         "acc": 478,
         "blind": 521
       }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Fabia",
+      "version": "Essence 1.0 MPI 59 kW 5MP",
+      "base_price": 16080,
+      "discount": 0.0995,
+      "segment": "mestské",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 600,
+        "camera": 700,
+        "navigation": 800,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Fabia",
+      "version": "Selection 1.0 MPI 59 kW 5MP",
+      "base_price": 16640,
+      "discount": 0.0962,
+      "segment": "mestské",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 600,
+        "camera": 700,
+        "navigation": 800,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Fabia",
+      "version": "Essence 1.0 TSI 70 kW 5MP",
+      "base_price": 16820,
+      "discount": 0.0951,
+      "segment": "mestské",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 600,
+        "camera": 700,
+        "navigation": 800,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Fabia",
+      "version": "Selection 1.0 TSI 70 kW 5MP",
+      "base_price": 17350,
+      "discount": 0.0922,
+      "segment": "mestské",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 600,
+        "camera": 700,
+        "navigation": 800,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Fabia",
+      "version": "Monte Carlo 1.0 TSI 70 kW 5MP",
+      "base_price": 20020,
+      "discount": 0.0799,
+      "segment": "mestské",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 600,
+        "camera": 700,
+        "navigation": 800,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Fabia",
+      "version": "Essence 1.0 TSI 85 kW 6MP",
+      "base_price": 17220,
+      "discount": 0.0929,
+      "segment": "mestské",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 600,
+        "camera": 700,
+        "navigation": 800,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Fabia",
+      "version": "Selection 1.0 TSI 85 kW 6MP",
+      "base_price": 17750,
+      "discount": 0.0901,
+      "segment": "mestské",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 600,
+        "camera": 700,
+        "navigation": 800,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Fabia",
+      "version": "Monte Carlo 1.0 TSI 85 kW 6MP",
+      "base_price": 20500,
+      "discount": 0.078,
+      "segment": "mestské",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 600,
+        "camera": 700,
+        "navigation": 800,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Fabia",
+      "version": "Selection 1.0 TSI 85 kW DSG",
+      "base_price": 19290,
+      "discount": 0.0829,
+      "segment": "mestské",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 600,
+        "camera": 700,
+        "navigation": 800,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Fabia",
+      "version": "Monte Carlo 1.0 TSI 85 kW DSG",
+      "base_price": 22040,
+      "discount": 0.0726,
+      "segment": "mestské",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 600,
+        "camera": 700,
+        "navigation": 800,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Fabia",
+      "version": "Selection 1.5 TSI 110 kW DSG",
+      "base_price": 20980,
+      "discount": 0.0763,
+      "segment": "mestské",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 600,
+        "camera": 700,
+        "navigation": 800,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Fabia",
+      "version": "Monte Carlo 1.5 TSI 110 kW DSG",
+      "base_price": 23580,
+      "discount": 0.0679,
+      "segment": "mestské",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 600,
+        "camera": 700,
+        "navigation": 800,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala",
+      "version": "Essence 1.0 TSI 70 kW 5MP",
+      "base_price": 19200,
+      "discount": 0.1198,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala",
+      "version": "Selection 1.0 TSI 70 kW 5MP",
+      "base_price": 20850,
+      "discount": 0.1103,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala",
+      "version": "Monte Carlo 1.0 TSI 70 kW 5MP",
+      "base_price": 24760,
+      "discount": 0.0929,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala",
+      "version": "Essence 1.0 TSI 85 kW 6MP",
+      "base_price": 20350,
+      "discount": 0.113,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala",
+      "version": "Selection 1.0 TSI 85 kW 6MP",
+      "base_price": 21940,
+      "discount": 0.1048,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala",
+      "version": "Monte Carlo 1.0 TSI 85 kW 6MP",
+      "base_price": 25840,
+      "discount": 0.089,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala",
+      "version": "Essence 1.0 TSI 85 kW DSG",
+      "base_price": 22310,
+      "discount": 0.1031,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala",
+      "version": "Selection 1.0 TSI 85 kW DSG",
+      "base_price": 24030,
+      "discount": 0.0957,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala",
+      "version": "Monte Carlo 1.0 TSI 85 kW DSG",
+      "base_price": 27940,
+      "discount": 0.0823,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala",
+      "version": "Selection 1.5 TSI 110 kW 6MP",
+      "base_price": 23440,
+      "discount": 0.0981,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala",
+      "version": "Monte Carlo 1.5 TSI 110 kW 6MP",
+      "base_price": 27360,
+      "discount": 0.0841,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala",
+      "version": "Selection 1.5 TSI 110 kW DSG",
+      "base_price": 25550,
+      "discount": 0.09,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala",
+      "version": "Monte Carlo 1.5 TSI 110 kW DSG",
+      "base_price": 29470,
+      "discount": 0.078,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala FL Drive",
+      "version": "Drive 130 1.0 TSI 70 kW 5MP",
+      "base_price": 20500,
+      "discount": 0.1463,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala FL Drive",
+      "version": "Drive 130 Plus 1.0 TSI 70 kW 5MP",
+      "base_price": 22410,
+      "discount": 0.1339,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala FL Drive",
+      "version": "Drive 130 1.0 TSI 85 kW 6MP",
+      "base_price": 21650,
+      "discount": 0.1386,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala FL Drive",
+      "version": "Drive 130 Plus 1.0 TSI 85 kW 6MP",
+      "base_price": 23500,
+      "discount": 0.1277,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala FL Drive",
+      "version": "Drive 130 1.0 TSI 85 kW DSG",
+      "base_price": 23610,
+      "discount": 0.1271,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala FL Drive",
+      "version": "Drive 130 Plus 1.0 TSI 85 kW DSG",
+      "base_price": 25590,
+      "discount": 0.1172,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala FL Drive",
+      "version": "Drive 130 Plus 1.5 TSI 110 kW 6MP",
+      "base_price": 25000,
+      "discount": 0.12,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Scala FL Drive",
+      "version": "Drive 130 Plus 1.5 TSI 110 kW DSG",
+      "base_price": 27110,
+      "discount": 0.1107,
+      "segment": "kompaktné",
+      "body": "hatchback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 500,
+        "camera": 500,
+        "navigation": 900,
+        "acc": 500,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Selection 1.5 TSI ACT 110 kW m-HEV DSG",
+      "base_price": 40330,
+      "discount": 0.0793,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "benzín/hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Top Selection 1.5 TSI ACT 110 kW m-HEV DSG",
+      "base_price": 43130,
+      "discount": 0.0742,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "benzín/hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "L&K 1.5 TSI ACT 110 kW m-HEV DSG",
+      "base_price": 49260,
+      "discount": 0.065,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "benzín/hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Sportline 1.5 TSI ACT 110 kW m-HEV DSG",
+      "base_price": 48310,
+      "discount": 0.0662,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "benzín/hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Selection 2.0 TSI 150 kW DSG",
+      "base_price": 43500,
+      "discount": 0.0736,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Top Selection 2.0 TSI 150 kW DSG",
+      "base_price": 46300,
+      "discount": 0.0691,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "L&K 2.0 TSI 150 kW DSG",
+      "base_price": 52440,
+      "discount": 0.061,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Sportline 2.0 TSI 150 kW DSG",
+      "base_price": 51580,
+      "discount": 0.062,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Selection 2.0 TSI 195 kW DSG 4x4",
+      "base_price": 48170,
+      "discount": 0.0664,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Top Selection 2.0 TSI 195 kW DSG 4x4",
+      "base_price": 50970,
+      "discount": 0.0628,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "L&K 2.0 TSI 195 kW DSG 4x4",
+      "base_price": 56100,
+      "discount": 0.057,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Sportline 2.0 TSI 195 kW DSG 4x4",
+      "base_price": 55730,
+      "discount": 0.0574,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Selection 1.5 TSI 150 kW PHEV DSG",
+      "base_price": 46730,
+      "discount": 0.0685,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "plug-in hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Top Selection 1.5 TSI 150 kW PHEV DSG",
+      "base_price": 49530,
+      "discount": 0.0646,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "plug-in hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "L&K 1.5 TSI 150 kW PHEV DSG",
+      "base_price": 55760,
+      "discount": 0.0574,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "plug-in hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Sportline 1.5 TSI 150 kW PHEV DSG",
+      "base_price": 55160,
+      "discount": 0.058,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "plug-in hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Selection 2.0 TDI SCR EVO 110 kW DSG",
+      "base_price": 43810,
+      "discount": 0.073,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Top Selection 2.0 TDI SCR EVO 110 kW DSG",
+      "base_price": 46610,
+      "discount": 0.0687,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "L&K 2.0 TDI SCR EVO 110 kW DSG",
+      "base_price": 52760,
+      "discount": 0.0607,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Sportline 2.0 TDI SCR EVO 110 kW DSG",
+      "base_price": 51790,
+      "discount": 0.0618,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Selection 2.0 TDI SCR EVO 142 kW DSG 4x4",
+      "base_price": 48530,
+      "discount": 0.0659,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Top Selection 2.0 TDI SCR EVO 142 kW DSG 4x4",
+      "base_price": 51330,
+      "discount": 0.0623,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "L&K 2.0 TDI SCR EVO 142 kW DSG 4x4",
+      "base_price": 57460,
+      "discount": 0.0557,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb",
+      "version": "Sportline 2.0 TDI SCR EVO 142 kW DSG 4x4",
+      "base_price": 56260,
+      "discount": 0.0569,
+      "segment": "veľké",
+      "body": "liftback",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Selection 1.5 TSI ACT 110 kW m-HEV DSG",
+      "base_price": 41890,
+      "discount": 0.0764,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "benzín/hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Top Selection 1.5 TSI ACT 110 kW m-HEV DSG",
+      "base_price": 44690,
+      "discount": 0.0716,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "benzín/hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "L&K 1.5 TSI ACT 110 kW m-HEV DSG",
+      "base_price": 50820,
+      "discount": 0.063,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "benzín/hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Sportline 1.5 TSI ACT 110 kW m-HEV DSG",
+      "base_price": 49870,
+      "discount": 0.0642,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "benzín/hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Selection 2.0 TSI 150 kW DSG",
+      "base_price": 45060,
+      "discount": 0.071,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Top Selection 2.0 TSI 150 kW DSG",
+      "base_price": 47860,
+      "discount": 0.0669,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "L&K 2.0 TSI 150 kW DSG",
+      "base_price": 54000,
+      "discount": 0.0593,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Sportline 2.0 TSI 150 kW DSG",
+      "base_price": 53140,
+      "discount": 0.0602,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Selection 2.0 TSI 195 kW DSG 4x4",
+      "base_price": 49730,
+      "discount": 0.0643,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Top Selection 2.0 TSI 195 kW DSG 4x4",
+      "base_price": 52530,
+      "discount": 0.0609,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "L&K 2.0 TSI 195 kW DSG 4x4",
+      "base_price": 57660,
+      "discount": 0.0555,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Sportline 2.0 TSI 195 kW DSG 4x4",
+      "base_price": 57290,
+      "discount": 0.0559,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Selection 1.5 TSI 150 kW PHEV DSG",
+      "base_price": 47450,
+      "discount": 0.0674,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "plug-in hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Top Selection 1.5 TSI 150 kW PHEV DSG",
+      "base_price": 50250,
+      "discount": 0.0637,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "plug-in hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "L&K 1.5 TSI 150 kW PHEV DSG",
+      "base_price": 56480,
+      "discount": 0.0567,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "plug-in hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Sportline 1.5 TSI 150 kW PHEV DSG",
+      "base_price": 55880,
+      "discount": 0.0573,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "plug-in hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Selection 2.0 TDI SCR EVO 110 kW DSG",
+      "base_price": 45370,
+      "discount": 0.0705,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Top Selection 2.0 TDI SCR EVO 110 kW DSG",
+      "base_price": 48170,
+      "discount": 0.0664,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "L&K 2.0 TDI SCR EVO 110 kW DSG",
+      "base_price": 54320,
+      "discount": 0.0589,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Sportline 2.0 TDI SCR EVO 110 kW DSG",
+      "base_price": 53350,
+      "discount": 0.06,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Selection 2.0 TDI SCR EVO 142 kW DSG 4x4",
+      "base_price": 50090,
+      "discount": 0.0639,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Top Selection 2.0 TDI SCR EVO 142 kW DSG 4x4",
+      "base_price": 52890,
+      "discount": 0.0605,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "L&K 2.0 TDI SCR EVO 142 kW DSG 4x4",
+      "base_price": 59020,
+      "discount": 0.0542,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Superb Combi",
+      "version": "Sportline 2.0 TDI SCR EVO 142 kW DSG 4x4",
+      "base_price": 57820,
+      "discount": 0.0553,
+      "segment": "veľké",
+      "body": "kombi",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 800,
+        "blind": 600
+      }
     }
   ]
 }
