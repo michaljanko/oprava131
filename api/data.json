@@ -1918,6 +1918,1070 @@
         "acc": 600,
         "blind": 400
       }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Selection 1.5 TSI ACT 110 kW m-HEV DSG",
+      "base_price": 41360,
+      "discount": 0.0774,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "benzín/hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Top Selection 1.5 TSI ACT 110 kW m-HEV DSG",
+      "base_price": 44560,
+      "discount": 0.0718,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "benzín/hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Platinum 1.5 TSI ACT 110 kW m-HEV DSG",
+      "base_price": 50160,
+      "discount": 0.0638,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "benzín/hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Sportline 1.5 TSI ACT 110 kW m-HEV DSG",
+      "base_price": 47190,
+      "discount": 0.0678,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "benzín/hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Selection 2.0 TSI 150 kW DSG 4x4",
+      "base_price": 46800,
+      "discount": 0.0684,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Top Selection 2.0 TSI 150 kW DSG 4x4",
+      "base_price": 50000,
+      "discount": 0.064,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Platinum 2.0 TSI 150 kW DSG 4x4",
+      "base_price": 55600,
+      "discount": 0.0576,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Sportline 2.0 TSI 150 kW DSG 4x4",
+      "base_price": 52400,
+      "discount": 0.0611,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Selection 1.5 TSI 150 kW PHEV DSG",
+      "base_price": 46200,
+      "discount": 0.0693,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "plug-in hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Top Selection 1.5 TSI 150 kW PHEV DSG",
+      "base_price": 49400,
+      "discount": 0.0648,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "plug-in hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Platinum 1.5 TSI 150 kW PHEV DSG",
+      "base_price": 55000,
+      "discount": 0.0582,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "plug-in hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Sportline 1.5 TSI 150 kW PHEV DSG",
+      "base_price": 51800,
+      "discount": 0.0618,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "plug-in hybrid",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Selection 2.0 TDI 110 kW DSG",
+      "base_price": 44230,
+      "discount": 0.0723,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Top Selection 2.0 TDI 110 kW DSG",
+      "base_price": 47430,
+      "discount": 0.0675,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Platinum 2.0 TDI 110 kW DSG",
+      "base_price": 53030,
+      "discount": 0.0603,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Sportline 2.0 TDI 110 kW DSG",
+      "base_price": 50060,
+      "discount": 0.0639,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Selection 2.0 TDI 142 kW DSG 4x4",
+      "base_price": 48330,
+      "discount": 0.0662,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Top Selection 2.0 TDI 142 kW DSG 4x4",
+      "base_price": 51530,
+      "discount": 0.0621,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Platinum 2.0 TDI 142 kW DSG 4x4",
+      "base_price": 57130,
+      "discount": 0.056,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG",
+      "version": "Sportline 2.0 TDI 142 kW DSG 4x4",
+      "base_price": 54160,
+      "discount": 0.0591,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kodiaq NG RS",
+      "version": "RS 2.0 TSI 195 kW DSG 4x4",
+      "base_price": 60990,
+      "discount": 0.0525,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 600,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Enyaq",
+      "version": "60 150 kW 63 kWh Selection",
+      "base_price": 43720,
+      "discount": 0.0686,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "elektrické",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Enyaq",
+      "version": "85 210 kW 82 kWh Selection",
+      "base_price": 48170,
+      "discount": 0.0623,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "elektrické",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Enyaq",
+      "version": "85 210 kW 82 kWh Sportline",
+      "base_price": 52310,
+      "discount": 0.0574,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "elektrické",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Enyaq",
+      "version": "85x 210 kW 82 kWh Selection 4x4",
+      "base_price": 51020,
+      "discount": 0.0588,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "elektrické",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Enyaq",
+      "version": "85x 210 kW 82 kWh Sportline 4x4",
+      "base_price": 52160,
+      "discount": 0.0575,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "elektrické",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Enyaq Coupé",
+      "version": "85 210 kW 82 kWh Selection",
+      "base_price": 50760,
+      "discount": 0.0591,
+      "segment": "veľké",
+      "body": "coupé",
+      "fuel": "elektrické",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Enyaq Coupé",
+      "version": "85 210 kW 82 kWh Sportline",
+      "base_price": 54900,
+      "discount": 0.0546,
+      "segment": "veľké",
+      "body": "coupé",
+      "fuel": "elektrické",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Enyaq Coupé",
+      "version": "85x 210 kW 82 kWh Selection 4x4",
+      "base_price": 53610,
+      "discount": 0.056,
+      "segment": "veľké",
+      "body": "coupé",
+      "fuel": "elektrické",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Enyaq Coupé",
+      "version": "85x 210 kW 82 kWh Sportline 4x4",
+      "base_price": 57750,
+      "discount": 0.0519,
+      "segment": "veľké",
+      "body": "coupé",
+      "fuel": "elektrické",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Enyaq RS",
+      "version": "RS 250 kW 84 kWh 4x4",
+      "base_price": 58090,
+      "discount": 0.0516,
+      "segment": "veľké",
+      "body": "SUV",
+      "fuel": "elektrické",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 600,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Enyaq Coupé RS",
+      "version": "RS 250 kW 84 kWh 4x4",
+      "base_price": 60690,
+      "discount": 0.0494,
+      "segment": "veľké",
+      "body": "coupé",
+      "fuel": "elektrické",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 500,
+        "navigation": 1000,
+        "acc": 600,
+        "blind": 400
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Elroq",
+      "version": "Essence 50 125 kW 55 kWh",
+      "base_price": 33810,
+      "discount": 0.068,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "elektrické",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Elroq",
+      "version": "Essence 60 150 kW 63 kWh",
+      "base_price": 37750,
+      "discount": 0.0609,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "elektrické",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Elroq",
+      "version": "Selection 60 150 kW 63 kWh",
+      "base_price": 42850,
+      "discount": 0.0537,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "elektrické",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Elroq",
+      "version": "Selection 85 210 kW 82 kWh",
+      "base_price": 44100,
+      "discount": 0.0522,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "elektrické",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Elroq",
+      "version": "Sportline 85 210 kW 82 kWh",
+      "base_price": 47140,
+      "discount": 0.0488,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "elektrické",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 0,
+        "navigation": 0,
+        "acc": 0,
+        "blind": 0
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kamiq FL Drive",
+      "version": "Drive 130 1.0 TSI 70 kW 5MP",
+      "base_price": 21690,
+      "discount": 0.1383,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 600,
+        "navigation": 1000,
+        "acc": 500,
+        "blind": 500
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kamiq FL Drive",
+      "version": "Drive 130 Plus 1.0 TSI 70 kW 5MP",
+      "base_price": 24310,
+      "discount": 0.1234,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 600,
+        "navigation": 1000,
+        "acc": 500,
+        "blind": 500
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kamiq FL Drive",
+      "version": "Drive 130 1.0 TSI 85 kW 6MP",
+      "base_price": 23140,
+      "discount": 0.1296,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 600,
+        "navigation": 1000,
+        "acc": 500,
+        "blind": 500
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kamiq FL Drive",
+      "version": "Drive 130 Plus 1.0 TSI 85 kW 6MP",
+      "base_price": 25740,
+      "discount": 0.1166,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 600,
+        "navigation": 1000,
+        "acc": 500,
+        "blind": 500
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kamiq FL Drive",
+      "version": "Drive 130 1.0 TSI 85 kW DSG",
+      "base_price": 25190,
+      "discount": 0.1191,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 600,
+        "navigation": 1000,
+        "acc": 500,
+        "blind": 500
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kamiq FL Drive",
+      "version": "Drive 130 Plus 1.0 TSI 85 kW DSG",
+      "base_price": 27840,
+      "discount": 0.1078,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 600,
+        "navigation": 1000,
+        "acc": 500,
+        "blind": 500
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kamiq FL Drive",
+      "version": "Drive 130 Plus 1.5 TSI 110 kW 6MP",
+      "base_price": 27270,
+      "discount": 0.11,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 600,
+        "navigation": 1000,
+        "acc": 500,
+        "blind": 500
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Kamiq FL Drive",
+      "version": "Drive 130 Plus 1.5 TSI 110 kW DSG",
+      "base_price": 29370,
+      "discount": 0.1021,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 600,
+        "navigation": 1000,
+        "acc": 500,
+        "blind": 500
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Karoq Drive",
+      "version": "Drive 130 1.0 TSI EVO 85 kW 6MP",
+      "base_price": 30690,
+      "discount": 0.1075,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 749,
+        "navigation": 966,
+        "acc": 478,
+        "blind": 521
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Karoq Drive",
+      "version": "Drive 130 Plus 1.0 TSI EVO 85 kW 6MP",
+      "base_price": 31690,
+      "discount": 0.1041,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 749,
+        "navigation": 966,
+        "acc": 478,
+        "blind": 521
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Karoq Drive",
+      "version": "Drive 130 1.5 TSI ACT EVO 110 kW 6MP",
+      "base_price": 32380,
+      "discount": 0.1019,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 749,
+        "navigation": 966,
+        "acc": 478,
+        "blind": 521
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Karoq Drive",
+      "version": "Drive 130 Plus 1.5 TSI ACT EVO 110 kW 6MP",
+      "base_price": 33380,
+      "discount": 0.0989,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 749,
+        "navigation": 966,
+        "acc": 478,
+        "blind": 521
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Karoq Drive",
+      "version": "Drive 130 1.5 TSI ACT EVO 110 kW DSG",
+      "base_price": 34610,
+      "discount": 0.0953,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 749,
+        "navigation": 966,
+        "acc": 478,
+        "blind": 521
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Karoq Drive",
+      "version": "Drive 130 Plus 1.5 TSI ACT EVO 110 kW DSG",
+      "base_price": 35610,
+      "discount": 0.0927,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "benzín",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 749,
+        "navigation": 966,
+        "acc": 478,
+        "blind": 521
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Karoq Drive",
+      "version": "Drive 130 2.0 TDI EVO SCR 85 kW 6MP",
+      "base_price": 33380,
+      "discount": 0.0989,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "nafta",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 749,
+        "navigation": 966,
+        "acc": 478,
+        "blind": 521
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Karoq Drive",
+      "version": "Drive 130 Plus 2.0 TDI EVO SCR 85 kW 6MP",
+      "base_price": 34380,
+      "discount": 0.096,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "nafta",
+      "gearbox": "manuál",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 749,
+        "navigation": 966,
+        "acc": 478,
+        "blind": 521
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Karoq Drive",
+      "version": "Drive 130 2.0 TDI EVO SCR 110 kW DSG",
+      "base_price": 36490,
+      "discount": 0.0904,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 749,
+        "navigation": 966,
+        "acc": 478,
+        "blind": 521
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Karoq Drive",
+      "version": "Drive 130 Plus 2.0 TDI EVO SCR 110 kW DSG",
+      "base_price": 37490,
+      "discount": 0.088,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": false,
+      "features": {
+        "sensors": 0,
+        "camera": 749,
+        "navigation": 966,
+        "acc": 478,
+        "blind": 521
+      }
+    },
+    {
+      "brand": "Skoda",
+      "model": "Karoq Drive",
+      "version": "Drive 130 2.0 TDI EVO SCR 110 kW DSG 4x4",
+      "base_price": 39680,
+      "discount": 0.0832,
+      "segment": "kompaktné",
+      "body": "SUV",
+      "fuel": "nafta",
+      "gearbox": "automat",
+      "four_wheel": true,
+      "features": {
+        "sensors": 0,
+        "camera": 749,
+        "navigation": 966,
+        "acc": 478,
+        "blind": 521
+      }
     }
   ]
 }
